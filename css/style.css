@@ -1,17 +1,16 @@
 html {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .unstyled-list {
     list-style: none;
    }
 
-.webstudio {
+.logo-header, .logo-footer {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -19,24 +18,8 @@ html {
     text-decoration: none;
 }
 
-.webstudio::after{
-    content: "Studio";
-    color: #212121
-}
-
-.webstudio-footer {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    text-decoration: none;
-}
-.webstudio-footer::after{
-    content: "Studio";
-    color: #FFFFFF
+.logo-header-second {
+    color: #212121;
 }
 
 .link-nav {
@@ -48,11 +31,12 @@ html {
     text-decoration: none;
 }
 
-.link-nav:hover, .link-nav:focus {
-    color: #2196F3;
-}
-
-.link:hover, link:focus {
+.link:hover,
+.link:focus,
+.link-nav:hover,
+.link-nav:focus,
+.contact-method:hover,
+.contact-method:focus {
     color: #2196F3;
 }
 
@@ -97,13 +81,13 @@ html {
 }
 
 .image-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .image-description {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -113,18 +97,13 @@ html {
 .footer-section{
     background: #2F303A;
 }
-#footer-title {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    text-decoration: none;
+
+.logo-footer-second {
+    color: #FFFFFF
 }
 
 #adress-line {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
@@ -133,9 +112,12 @@ html {
 }
 
 .contact-method {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
 }
