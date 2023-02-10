@@ -15,7 +15,7 @@ html {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
@@ -31,7 +31,7 @@ html {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
@@ -44,7 +44,7 @@ html {
 .link-nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
@@ -61,7 +61,7 @@ html {
 .link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
@@ -70,7 +70,7 @@ html {
 .project-type {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -84,7 +84,7 @@ html {
 .project-type:hover, .project-type:focus {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -101,13 +101,13 @@ html {
 .image-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .image-description {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -120,7 +120,7 @@ html {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
@@ -128,7 +128,7 @@ html {
 
 #adress-line {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     font-style: normal;
@@ -136,7 +136,7 @@ html {
 
 .contact-method {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
