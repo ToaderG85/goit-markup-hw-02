@@ -102,7 +102,7 @@ html {
     color: #FFFFFF
 }
 
-#adress-line {
+.adress-line {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.1;
